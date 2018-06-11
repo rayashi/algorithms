@@ -1,0 +1,2 @@
+def hourglass(matrix):
+    pass
