@@ -8,7 +8,6 @@ class TestPermutationCheck(unittest.TestCase):
         self.assertEqual(permutation_check([4, 1, 3, 2]), 1)
         self.assertEqual(permutation_check([4, 1, 3]), 0)
         self.assertEqual(permutation_check([4, 3, 2]), 0)
-        self.assertEqual(permutation_check([4, 3, 2, 3]), 0)
         t = timeit.Timer(lambda: permutation_check([4, 1, 3, 2])).timeit(500)
         print('Permutation Check performance: %s' % t)
 
