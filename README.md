@@ -14,3 +14,5 @@ the problem: recursive, recursive using memoize, and a bottom up with memoized.
 - **hourglass** - Calculate the hourglass sum for every hourglass in , then print the maximum hourglass sum.
 
 - **permutation_check** - Given an array A, returns 1 if array A is a permutation and 0 if it is not.
+
+- **pile_of_cubes** - Being given m can you find the number n of cubes you will have to build?
