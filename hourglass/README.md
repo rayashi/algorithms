@@ -1,7 +1,7 @@
-###Objective 
+### Objective 
 Today, we're building on our knowledge of Arrays by adding another dimension. Check out the Tutorial tab for learning materials and an instructional video!
 
-####Context 
+#### Context 
 Given a 6 X 6 2D Array, A:
 
 ``````
@@ -23,22 +23,22 @@ e f g
 
 There are  hourglasses in , and an hourglass sum is the sum of an hourglass' values.
 
-####Task 
+#### Task 
 Calculate the hourglass sum for every hourglass in , then print the maximum hourglass sum.
 
-#####Input Format
+##### Input Format
 
 There are  lines of input, where each line contains  space-separated integers describing 2D Array ; every value in  will be in the inclusive range of  to.
 
-####Constraints
+#### Constraints
  - -9 <= A[i][j] <= 9
  - 0 <= i, j <= 5
  
-####Output Format
+#### Output Format
 
 Print the largest (maximum) hourglass sum found in .
 
-####Sample Input
+#### Sample Input
 ````
 1 1 1 0 0 0
 0 1 0 0 0 0
@@ -48,13 +48,13 @@ Print the largest (maximum) hourglass sum found in .
 0 0 1 2 4 0
 ````
 
-####Sample Output
+#### Sample Output
 
 ````
 19
 ````
 
-####Explanation
+#### Explanation
 
 A contains the following hourglasses:
 
